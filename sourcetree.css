@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ace0f9, #fcb8d2); /* Azul clarito a Rosa clarito */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 80%; /* Ajusta al centro */
+}
+
+h1 {
+    font-size: 4rem; /* Más grande */
+    margin: 0;
+    color: maroon; /* Guinda */
+}
+
+.description-box, .info {
+    border: 2px solid maroon;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%; /* Ajusta el ancho para alinear con el resto */
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.buttons button {
+    background: linear-gradient(to right, #ace0f9, #fcb8d2);
+    border: 1px solid maroon;
+    color: maroon;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.9;
+}
