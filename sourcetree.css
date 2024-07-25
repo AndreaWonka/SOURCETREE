@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to right, #ace0f9, #fcb8d2); /* Azul clarito a Rosa clarito */
+    background: linear-gradient(to right, #000000, #e10157); /* Azul clarito a Rosa clarito */
     display: flex;
     align-items: center;
     justify-content: center;
